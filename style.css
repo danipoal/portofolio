@@ -1,0 +1,29 @@
+:root{
+    --azul: #77E4C8;        /*Primario, */
+    --gris-oscuro: #343a4085; /*Secundario, Nav superior*/
+    --gris-claro: #F8F9FA;  /*Fondo, */
+    --negro: #212529;       /*Texto, */
+    --azul-claro: #66B2FF;  /*Botones, */
+}
+.azul{
+    background-color: var(--azul);
+}
+.gris-oscuro{
+    background-color: var(--gris-oscuro);
+}
+.gris-claro{
+    background-color: var(--gris-claro);
+}
+.negro{
+    color: var(--negro);
+}
+.azul-claro{
+    background-color: var(--azul-claro);
+}
+
+.elemento-header{
+    height: 80px; 
+}
+.elemento-nav-header{
+    height: 80px;
+}
