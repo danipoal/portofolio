@@ -7,3 +7,15 @@
     -o-border-radius: 10px;
     margin-right: 10px;
 }
+.cuadricula{
+    gap: 20px;
+}
+.cuerpo-carta{
+    position: relative;
+}
+.git{
+    
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+}
