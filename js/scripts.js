@@ -1,7 +1,4 @@
-/*!
-* Start Bootstrap - Personal v1.0.1 (https://startbootstrap.com/template-overviews/personal)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-personal/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+//TODO 1- json, 2- fetch + renderizar cartas, 3- write cartas 
+
+import { javaScript, html, css, api, bootstrap } from "./svgs.js";
+import { carta } from "./componentes.js";

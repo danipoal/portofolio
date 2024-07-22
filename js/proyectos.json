@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Juego de cartas",
+        "descripcion": "Página web simple, en la que hay 4 cartas, que al pulsar en ellas se elije una Random y si hay coincidencias las detecta.",
+        "fecha": "Julio de 2024",
+        "github": "https://github.com/danipoal/EjerciciosJQuery",
+        "imagen": "./assets/cartas.PNG",
+        "deploy": "https://danipoal-cartas.netlify.app/",
+        "tecnologias" : [
+            "javaScript", "html", "css"
+        ]
+
+    },
+    {
+
+    }
+]
