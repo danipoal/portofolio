@@ -1,6 +1,6 @@
-export const carta = `                    <div class="col-lg-3 col-md-4 col-sm-5 col-8 card bg-light p-0">
+export const carta = `                    <div id="proyecto" class="col-lg-3 col-md-4 col-sm-5 col-8 card bg-light p-0">
                         <a href="" target="_blank" rel="noopener noreferrer">
-                            <img class="img-fluid w-100" src="" alt="Err">
+                            <img id="project-img" class="img-fluid w-100" src="" alt="Err">
                         </a>
                         <div class="card-body cuerpo-carta">
                             <h5 class="card-title"></h5>

@@ -12,6 +12,14 @@
 
     },
     {
-
+        "nombre": "PokeBnb",
+        "descripcion": "Pokedex que hace un fetch a la pokeApi para mostrar los atributos de los personajes",
+        "fecha": "Julio de 2024",
+        "github": "https://github.com/danipoal/Bootcamp/tree/main/Bootstrap/pokeBnb",
+        "imagen": "./assets/pokebnb.PNG",
+        "deploy": "https://pokebnb.netlify.app/",
+        "tecnologias" : [
+            "javaScript", "api", "bootstrap"
+        ]
     }
 ]
