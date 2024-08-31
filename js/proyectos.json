@@ -4,7 +4,7 @@
         "descripcion": "Web destinada a conectar a los agricultores locales con la población para que estos puedan vender sus productos con mayor facilidad. <br> Las funcionalidades que dispone como plataforma serian, el sistema tradicional de login/autentificación, perfiles y seguimiento de los mismos entre ellos, poner publicaciones para promocionar la venta de los productos agrícolas, y añadir a favoritos las publicaciones de estos.<br><span class='blockquote-footer'>Proyecto supervisado por Fundació Esplai y desarrollado en el Tecnocampus de Reus.<span>",
         "fecha": "Agosto de 2024",
         "github": "https://github.com/cnievaslozano/ConectaCampo",
-        "imagen": "./assets/ConectaCampo.PNG",
+        "imagen": "./assets/conectaCampo.PNG",
         "deploy": "http://conectacampo.es",
         "tecnologias" : [
             "react", "spring", "docker"
