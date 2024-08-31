@@ -1,25 +1,13 @@
 [
     {
-        "nombre": "Juego de cartas",
-        "descripcion": "Página web simple, en la que hay 4 cartas, que al pulsar en ellas se elije una Random y si hay coincidencias las detecta.",
-        "fecha": "Julio de 2024",
-        "github": "https://github.com/danipoal/EjerciciosJQuery",
-        "imagen": "./assets/cartas.PNG",
-        "deploy": "https://danipoal-cartas.netlify.app/",
+        "nombre": "Conecta Campo",
+        "descripcion": "Web destinada a conectar a los agricultores locales con la población para que estos puedan vender sus productos con mayor facilidad. <br> Las funcionalidades que dispone como plataforma serian, el sistema tradicional de login/autentificación, perfiles y seguimiento de los mismos entre ellos, poner publicaciones para promocionar la venta de los productos agrícolas, y añadir a favoritos las publicaciones de estos.<br><span class='blockquote-footer'>Proyecto supervisado por Fundació Esplai y desarrollado en el Tecnocampus de Reus.<span>",
+        "fecha": "Agosto de 2024",
+        "github": "https://github.com/cnievaslozano/ConectaCampo",
+        "imagen": "./assets/ConectaCampo.PNG",
+        "deploy": "http://conectacampo.es",
         "tecnologias" : [
-            "javaScript", "html", "css"
-        ]
-
-    },
-    {
-        "nombre": "PokeBnb",
-        "descripcion": "Pokedex que hace un fetch a la pokeApi para mostrar los atributos de los personajes",
-        "fecha": "Julio de 2024",
-        "github": "https://github.com/danipoal/Bootcamp/tree/main/Bootstrap/pokeBnb",
-        "imagen": "./assets/pokebnb.PNG",
-        "deploy": "https://pokebnb.netlify.app/",
-        "tecnologias" : [
-            "javaScript", "api", "bootstrap"
+            "react", "spring", "docker"
         ]
     }
 ]
