@@ -9,5 +9,16 @@
         "tecnologias" : [
             "react", "spring", "docker"
         ]
+    },
+    {
+        "nombre": "Book Source",
+        "descripcion": "Proyecto que emula una red social basada en la literatura. Contiene los libros disponibles ede la Google Book API y permite guardar dichos en listas como ''Leidos'' para el usuario y así mostrar a los demás tus libros favoritos. Los usuarios se pueden seguir entre sí, hacer publicaciones y reviews a los libros.<br>Toda la lógica está en C# usando la arquitectura Modelo Vista Controlador y no hay javascript.<br><span class='blockquote-footer'>Proyecto desarrollado en BCN y supervisado por el arquitecto de software Pascal Guillón.<span>",
+        "fecha": "Diciembre de 2024",
+        "github": "https://github.com/Tihersarc/book-source",
+        "imagen": "./assets/bookSource.PNG",
+        "deploy": "https://github.com/Tihersarc/book-source",
+        "tecnologias" : [
+            "asp", "net", "html"
+        ]
     }
 ]
