@@ -1,4 +1,4 @@
-import { javaScript, html, css, api, bootstrap, react, spring, docker } from "./svgs.js";
+import { javaScript, html, css, api, bootstrap, react, spring, docker, asp, csharp } from "./svgs.js";
 import { exerciseCard, projectCard } from "./componentes.js";
 //Bloque ejercicios
 const inyectarEjercicio = (data) => {
@@ -49,6 +49,10 @@ function detectTechnologies(techJson) {
             htmlReturn+= spring;
         }else if(tech === "docker"){
             htmlReturn+= docker;
+        }else if(tech == "csharp"){
+            htmlReturn+= csharp;
+        }else if(tech == "asp"){
+            htmlReturn+= asp;
         }
     })
 

@@ -18,7 +18,7 @@
         "imagen": "./assets/bookSource.PNG",
         "deploy": "https://github.com/Tihersarc/book-source",
         "tecnologias" : [
-            "asp", "net", "html"
+            "csharp", "asp", "html"
         ]
     }
 ]
