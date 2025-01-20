@@ -1,0 +1,27 @@
+name: Deploy to Hostinger
+
+# Especifica cuándo se debe ejecutar este workflow
+on:
+  push:
+    branches:
+      - main  # Ejecutar solo cuando haya un push en la rama 'main'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest  # Elige el entorno donde se ejecutará el workflow
+
+    steps:
+      # Paso 1: Chequear el código del repositorio
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Paso 2: Llamar al webhook para desplegar
+      - name: Trigger deployment
+        run: |
+          curl -X POST -H "Content-Type: application/json" \
+          -d '{"repository":"${{ github.repository }}", "branch":"${{ github.ref_name }}"}' \
+          ${{ secrets.HOSTINGER_WEBHOOK_URL }}
+      # Paso 3: Mensaje en caso de exito
+      - name: Log deployment success
+        if: ${{ success() }}  # Solo si el paso anterior tuvo éxito
+        run: echo "Succes Web deployment"
