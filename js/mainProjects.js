@@ -1,16 +1,16 @@
 import { javaScript, html, css, api, bootstrap, react, spring, docker, asp, csharp } from "./svgs.js";
 import { exerciseCard, projectCard } from "./componentes.js";
 //Bloque ejercicios
-const inyectarEjercicio = (data) => {
-    data.forEach(element => {
-        const projectContainer = document.querySelector('#excersiseContainer');
-        projectContainer.innerHTML += exerciseCard;
+const inyectarEjercicio = (data, type, container) => {
+    data.forEach((element, index) => {
+        const projectContainer = document.querySelector(container);
+        projectContainer.innerHTML += exerciseCard(type + (index + 1), type);
 
     });
 }
 
-const rellenarEjercicio = data => {
-    const proyectos = document.querySelectorAll('#proyecto');
+const rellenarEjercicio = (data, type) => {
+    const proyectos = document.querySelectorAll('.exercise'+ type);
 
     let dataCounter = 0;
     proyectos.forEach(proyecto => {
@@ -22,8 +22,6 @@ const rellenarEjercicio = data => {
         proyecto.querySelector('.technologies').innerHTML += detectTechnologies(data[dataCounter].tecnologias)
         proyecto.querySelector('.text-muted').textContent = data[dataCounter].fecha;
         proyecto.querySelector('.git').href = data[dataCounter].github;
-
-
 
         dataCounter++;
 
@@ -60,15 +58,15 @@ function detectTechnologies(techJson) {
 }
 //Bloque proyectos
 const inyectarProyecto = (data) => {
-    data.forEach(element => {
+    data.forEach((element, index) => {
         const projectContainer = document.querySelector('#projectContainer');
-        projectContainer.innerHTML += projectCard;
+        projectContainer.innerHTML += projectCard(index + 1);
 
     });
 }
 
 const rellenarProyecto = data => {
-    const proyectos = document.querySelectorAll('#proyecto');
+    const proyectos = document.querySelectorAll('.proyecto');
 
     let dataCounter = 0;
     proyectos.forEach(proyecto => {
@@ -89,15 +87,26 @@ const rellenarProyecto = data => {
 }
 
 //Funciones fetching
-fetch('js/ejercicios.json')
+fetch('js/ejerciciosweb.json')
     .then(response => response.json())
     .then(data => {
         console.log(data);
-        inyectarEjercicio(data);
-        rellenarEjercicio(data);
+        inyectarEjercicio(data, "web", "#excersiseContainer");
+        rellenarEjercicio(data, "web");
         
     })
     .catch(error => console.error('Error al cargar el archivo JSON:', error));
+
+fetch('js/ejerciciosCs.json')
+.then(response => response.json())
+.then(data => {
+    console.log(data);
+    inyectarEjercicio(data, "cs", "#excersiseContainerCs");
+    rellenarEjercicio(data, "cs");
+    
+})
+.catch(error => console.error('Error al cargar el archivo JSON:', error));
+
 
 fetch('js/proyectos.json')
     .then(response => response.json())

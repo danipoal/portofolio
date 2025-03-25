@@ -1,0 +1,11 @@
+[
+    {
+        "nombre": "Snake",
+        "descripcion": "Juego del snake en consona, con comidas, veneno y deteccion de fisicas",
+        "fecha": "Octubre de 2024",
+        "github": "https://github.com/danipoal/Bootcamp.NET/tree/master/Basico/Snake",
+        "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyvKldQCnga0zvhUJOa8LoSuqVbZ3eP3t8cjwrVBHmA4gmribZ6e0r-4wbOShRr7Fv1yPbRIgKEZPM0PuVzsWP2Zb8NIp6vud8ULcEXTByP0GAFQUMvmlZI1543xNsvsfxvH6-4v7FjqU/s1600/worm.jpg",
+        "deploy": "https://github.com/danipoal/Bootcamp.NET/tree/master/Basico/Snake",
+        "tecnologias" : []
+    }
+]
