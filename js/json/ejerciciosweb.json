@@ -1,5 +1,16 @@
 [
     {
+        "nombre": "Portfolio",
+        "descripcion": "Sí, el portfolio menos la parte inicial de CSS esta todo hecho por mi. Tiene un sistema de fetch a unos json internos que permite añadir proyectos al mismo facilmente.",
+        "fecha": "2024 - 2025",
+        "github": "https://github.com/danipoal/portfolio/tree/main",
+        "imagen": "./assets/port.PNG",
+        "deploy": "https://github.com/danipoal/portfolio/tree/main/",
+        "tecnologias" : [
+            "javaScript", "css", "bootstrap"
+        ]
+    },
+    {
         "nombre": "Juego de cartas",
         "descripcion": "Página web simple, en la que hay 4 cartas, que al pulsar en ellas se elije una Random y si hay coincidencias las detecta.",
         "fecha": "Julio de 2024",

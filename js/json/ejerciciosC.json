@@ -1,0 +1,38 @@
+[
+    {
+        "nombre": "Libft",
+        "descripcion": "Replica de la libreria estandar de C libC. Funciones de gestión numericas, de memoria, de cadenas y listas enlazadas. Cuenta con su propio tester (Tambien hecho por mi) para comprobar cada función y un workflow automático para ejecutarlo.",
+        "fecha": "2024/2025",
+        "github": "https://github.com/danipoal/libft/tree/master/",
+        "imagen": "./assets/libft.png",
+        "deploy": "https://github.com/danipoal/libft/tree/master/",
+        "tecnologias" : []
+    },
+    {
+        "nombre": "Printf",
+        "descripcion": "Implementación desde 0 en C de la función printf(). A partir de la llamada al SO write(), función que gestiona todas las conversiones de tipos de parametros con variables variadicas. %csdixXp entre otros.",
+        "fecha": "2025",
+        "github": "https://github.com/danipoal/printf/tree/master/",
+        "imagen": "./assets/printf.png",
+        "deploy": "https://github.com/danipoal/printf/tree/master/",
+        "tecnologias" : []
+    },
+    {
+        "nombre": "Get Next Line",
+        "descripcion": "GNL es una función que obtiene una linea de un fd. Lo hace con un buffer de tamaño indistinto para salvar memoria y gestión de la CPU. Devuelve siempre la linea usando una única variable estatica y permite ademas concurrencia, aplicando la funcion intercalando archivos.",
+        "fecha": "2025",
+        "github": "https://github.com/danipoal/gnl/tree/master/",
+        "imagen": "./assets/gnl.png",
+        "deploy": "https://github.com/danipoal/gnl/tree/master/",
+        "tecnologias" : []
+    },
+    {
+        "nombre": "Push Swap",
+        "descripcion": "Ordenación de stacks usando un límite de operaciones muy concreto. Se usan algoritmos en función de su tamaño, Bubble Sort, Insert Sort, Quick Sort, Radix Sort, ...",
+        "fecha": "Actual",
+        "github": "https://github.com/danipoal/push_swap/tree/master/",
+        "imagen": "https://miro.medium.com/v2/resize:fit:1200/1*ZLKF3qJ75poRylB9g8wM5w.gif",
+        "deploy": "https://github.com/danipoal/push_swap/tree/master/",
+        "tecnologias" : []
+    }
+]

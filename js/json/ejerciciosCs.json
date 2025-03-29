@@ -7,5 +7,14 @@
         "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyvKldQCnga0zvhUJOa8LoSuqVbZ3eP3t8cjwrVBHmA4gmribZ6e0r-4wbOShRr7Fv1yPbRIgKEZPM0PuVzsWP2Zb8NIp6vud8ULcEXTByP0GAFQUMvmlZI1543xNsvsfxvH6-4v7FjqU/s1600/worm.jpg",
         "deploy": "https://github.com/danipoal/Bootcamp.NET/tree/master/Basico/Snake",
         "tecnologias" : []
+    },
+    {
+        "nombre": "3 en raya multidimensional 3D",
+        "descripcion": "Un 3 en raya modificable a 4,5,... en raya ademas en 3 dimensiones. Tiene todas sus comprobaciones.",
+        "fecha": "Octubre de 2024",
+        "github": "https://github.com/danipoal/Bootcamp.NET/tree/master/Basico/tresEnRallaMulti3D",
+        "imagen": "./assets/raya.jpg",
+        "deploy": "https://github.com/danipoal/Bootcamp.NET/tree/master/Basico/tresEnRallaMulti3D",
+        "tecnologias" : []
     }
 ]

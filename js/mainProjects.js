@@ -87,7 +87,7 @@ const rellenarProyecto = data => {
 }
 
 //Funciones fetching
-fetch('js/ejerciciosweb.json')
+fetch('js/json/ejerciciosweb.json')
     .then(response => response.json())
     .then(data => {
         console.log(data);
@@ -95,9 +95,9 @@ fetch('js/ejerciciosweb.json')
         rellenarEjercicio(data, "web");
         
     })
-    .catch(error => console.error('Error al cargar el archivo JSON:', error));
+    .catch(error => console.error('Error al cargar el archivo JSON web:', error));
 
-fetch('js/ejerciciosCs.json')
+fetch('js/json/ejerciciosCs.json')
 .then(response => response.json())
 .then(data => {
     console.log(data);
@@ -105,10 +105,22 @@ fetch('js/ejerciciosCs.json')
     rellenarEjercicio(data, "cs");
     
 })
-.catch(error => console.error('Error al cargar el archivo JSON:', error));
+.catch(error => console.error('Error al cargar el archivo JSON C#:', error));
 
 
-fetch('js/proyectos.json')
+fetch('js/json/ejerciciosC.json')
+.then(response => response.json())
+.then(data => {
+    console.log(data);
+    inyectarEjercicio(data, "c", "#excersiseContainerC");
+    rellenarEjercicio(data, "c");
+    
+})
+.catch(error => console.error('Error al cargar el archivo JSON C++:', error));
+
+
+
+fetch('js/json/proyectos.json')
     .then(response => response.json())
     .then(data => {
         console.log(data);
@@ -116,4 +128,4 @@ fetch('js/proyectos.json')
         rellenarProyecto(data);
         
     })
-    .catch(error => console.error('Error al cargar el archivo JSON:', error));
+    .catch(error => console.error('Error al cargar el archivo JSON Principal:', error));
