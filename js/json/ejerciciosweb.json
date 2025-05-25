@@ -4,7 +4,7 @@
         "descripcion": "Sí, el portfolio menos la parte inicial de CSS esta todo hecho por mi. Tiene un sistema de fetch a unos json internos que permite añadir proyectos al mismo facilmente.",
         "fecha": "2024 - 2025",
         "github": "https://github.com/danipoal/portfolio/tree/main",
-        "imagen": "./assets/port.PNG",
+        "imagen": "./assets/port.png",
         "deploy": "https://github.com/danipoal/portfolio/tree/main/",
         "tecnologias" : [
             "javaScript", "css", "bootstrap"
