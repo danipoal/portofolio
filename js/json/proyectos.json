@@ -16,7 +16,7 @@
         "fecha": "Diciembre de 2024",
         "github": "https://github.com/Tihersarc/book-source",
         "imagen": "./assets/bookSource.PNG",
-        "deploy": "https://github.com/Tihersarc/book-source",
+        "deploy": "http://book.danipoal.com",
         "tecnologias" : [
             "csharp", "asp", "html"
         ]
