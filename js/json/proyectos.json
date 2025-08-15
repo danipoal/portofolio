@@ -5,7 +5,7 @@
         "fecha": "Agosto de 2024",
         "github": "https://github.com/cnievaslozano/ConectaCampo",
         "imagen": "./assets/conectaCampo.PNG",
-        "deploy": "http://conectacampo.es",
+        "deploy": "https://campo.danipoal.com",
         "tecnologias" : [
             "react", "spring", "docker"
         ]
@@ -16,7 +16,7 @@
         "fecha": "Diciembre de 2024",
         "github": "https://github.com/Tihersarc/book-source",
         "imagen": "./assets/bookSource.PNG",
-        "deploy": "http://book.danipoal.com",
+        "deploy": "https://book.danipoal.com",
         "tecnologias" : [
             "csharp", "asp", "html"
         ]
