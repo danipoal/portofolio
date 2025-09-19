@@ -32,7 +32,7 @@
         "fecha": "Actual",
         "github": "https://github.com/danipoal/push_swap/tree/master/",
         "imagen": "https://miro.medium.com/v2/resize:fit:1200/1*ZLKF3qJ75poRylB9g8wM5w.gif",
-        "deploy": "https://github.com/danipoal/push_swap/tree/master/",
+        "deploy": "https://push-swap.danipoal.com/",
         "tecnologias" : []
     }
 ]
