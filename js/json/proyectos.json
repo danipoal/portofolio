@@ -4,21 +4,15 @@
         "descripcion": "Aplicación móvil de gestión de partes/tickets de trabajo, pensada para agilizar el control de horas y tareas dentro de una empresa. Permite crear, aprobar y cancelar partes desde el rol de empleado, y dispone de un panel de administración para la gestión de usuarios y auxiliares.<br>Desarrollada con React Native (Expo) y TypeScript, con backend en Supabase (autenticación y base de datos) y despliegue contenerizado con Docker.<br><span class='blockquote-footer'>Proyecto desarrollado junto a Stdio-Lab.<span>",
         "fecha": "2025",
         "github": "https://github.com/Stdio-Lab/ticket-stdio",
-        "imagen": "./assets/ticketStdio.png",
         "deploy": "https://github.com/Stdio-Lab/ticket-stdio",
-        "tecnologias" : [
-            "react", "typescript", "docker"
-        ]
-    },
-    {
-        "nombre": "Portfolio",
-        "descripcion": "Este mismo sitio web: mi portfolio personal como desarrollador. Construido con HTML, CSS y JavaScript, con inyección dinámica de proyectos y tecnologías mediante fetch a ficheros JSON, y desplegado de forma automática con GitHub Actions.<br>Pensado como una web viva que se actualiza a medida que avanzo profesionalmente, reflejando mi experiencia real en desarrollo Full Stack.<br><span class='blockquote-footer'>Diseño y desarrollo propios, iterado de forma continua.<span>",
-        "fecha": "2024 - Actualidad",
-        "github": "https://github.com/danipoal/portofolio",
-        "imagen": "./assets/portfolio.png",
-        "deploy": "https://danipoal.com",
-        "tecnologias" : [
-            "javaScript", "html", "css", "bootstrap"
+        "tecnologias": [
+            "react",
+            "typescript",
+            "docker"
+        ],
+        "imagenes": [
+            "./assets/ticketStdio1.png",
+            "./assets/ticketStdio2.png"
         ]
     },
     {
@@ -28,8 +22,10 @@
         "github": "https://github.com/cnievaslozano/ConectaCampo",
         "imagen": "./assets/conectaCampo.PNG",
         "deploy": "https://campo.danipoal.com",
-        "tecnologias" : [
-            "react", "spring", "docker"
+        "tecnologias": [
+            "react",
+            "spring",
+            "docker"
         ]
     },
     {
@@ -39,8 +35,10 @@
         "github": "https://github.com/Tihersarc/book-source",
         "imagen": "./assets/bookSource.PNG",
         "deploy": "https://book.danipoal.com",
-        "tecnologias" : [
-            "csharp", "asp", "html"
+        "tecnologias": [
+            "csharp",
+            "asp",
+            "html"
         ]
     }
 ]

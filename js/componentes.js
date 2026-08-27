@@ -14,8 +14,8 @@ export const exerciseCard = (proyid, type)=> `
         </div>
     </div>`;
 export const projectCard = (proyid)=> `
-    <div id="pro${proyid}" class="col-lg-5 col-md-6 col-sm-7 col-10 card bg-light p-0 proyecto">
-        <a href="" target="_blank" rel="noopener noreferrer">
+    <div id="pro${proyid}" class="col-lg-4 col-md-6 col-sm-7 col-10 card bg-light p-0 proyecto">
+        <a class="project-media" href="" target="_blank" rel="noopener noreferrer">
             <img id="project-img" class="img-fluid w-100" src="" alt="Err">
         </a>
         <div class="card-body cuerpo-carta">

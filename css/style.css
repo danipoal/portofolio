@@ -19,3 +19,34 @@
     right: 20px;
     bottom: 40px;
 }
+
+/* Bloque de imagenes de los proyectos principales: mismo tamano en todas las cartas */
+.project-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    aspect-ratio: 2 / 1;
+    overflow: hidden;
+    background-color: #f8f9fa;
+}
+.project-media img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* Cuando el proyecto tiene varias capturas se ven juntas y enteras */
+.project-media-multi img{
+    flex: 0 1 auto;
+    width: auto;
+    max-width: calc(50% - 4px);
+}
+
+/* Los 3 proyectos principales caben en una misma fila */
+@media (min-width: 992px){
+    .proyecto{
+        flex: 0 0 auto;
+        width: calc((100% - 60px) / 3);
+        max-width: calc((100% - 60px) / 3);
+    }
+}

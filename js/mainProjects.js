@@ -67,6 +67,16 @@ const inyectarProyecto = (data) => {
     });
 }
 
+// Un proyecto puede traer una sola imagen ("imagen") o varias capturas ("imagenes")
+const pintarImagenes = (contenedor, proyecto) => {
+    const imagenes = proyecto.imagenes || [proyecto.imagen];
+
+    contenedor.classList.toggle('project-media-multi', imagenes.length > 1);
+    contenedor.innerHTML = imagenes
+        .map(src => `<img id="project-img" class="img-fluid" src="${src}" alt="${proyecto.nombre}">`)
+        .join('');
+}
+
 const rellenarProyecto = data => {
     const proyectos = document.querySelectorAll('.proyecto');
 
@@ -74,7 +84,7 @@ const rellenarProyecto = data => {
     proyectos.forEach(proyecto => {
 
         proyecto.querySelector('a').href = data[dataCounter].deploy;
-        proyecto.querySelector('#project-img').src = data[dataCounter].imagen;
+        pintarImagenes(proyecto.querySelector('.project-media'), data[dataCounter]);
         proyecto.querySelector('.card-title').textContent = data[dataCounter].nombre;
         proyecto.querySelector('.card-text').innerHTML = data[dataCounter].descripcion;
         proyecto.querySelector('.technologies').innerHTML += detectTechnologies(data[dataCounter].tecnologias)
